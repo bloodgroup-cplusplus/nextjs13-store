@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Fruit Shop',
-  description: 'Hyperinflated fruit store - best prices 2033',
+  title: 'Suvidha Gangtok',
+  description: 'Best Medicine Delivery Service in Gangtok',
 }
 
 import { Inter } from 'next/font/google'
@@ -25,9 +25,7 @@ export default function RootLayout({ children }) {
           {children}
         </div>
         <footer className='flex items-center flex-wrap justify-center border-t border-solid border-slate-300 p-4 md:p-8'>
-          <Link href={'https://www.instagram.com/smoljames'} target="_blank">
             <i className="fa-brands fa-instagram text-slate-700 hover:text-slate-500 cursor-pointer text-2xl sm:text-3xl md:text-4xl"></i>
-          </Link>
         </footer>
         <div id="portal"></div>
       </body>

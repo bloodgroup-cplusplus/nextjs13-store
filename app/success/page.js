@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function SuccessPage() {
     return (
         <div>
-            Nice!
-            <Link href={'/'}>Back home</Link>
+            Your order is Successful!
+            <Link href={'/'}>Our driver will call you in a minute</Link>
         </div>
     )
 }

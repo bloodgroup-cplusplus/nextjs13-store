@@ -49,7 +49,7 @@ export default function Modal() {
                                             <h2>
                                                 {cartItem.name}
                                             </h2>
-                                            <p>${cartItem.cost / 100}</p>
+                                            <p>Rs {cartItem.cost / 100}</p>
                                         </div>
                                         <p className='text-slate-600 text-sm'>Quantity: 1</p>
                                     </div>
