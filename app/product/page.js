@@ -10,9 +10,9 @@ export default function ProductPage(props) {
 
     console.log(productInfo)
 
-    if (!product?.name) {
-        window.location.href = '/'
-    }
+    //if (!product?.name) {
+     //   window.location.href = '/'
+   // }
 
     function handleAddToCart() {
         console.log('PRICE ID: ', price_id)
