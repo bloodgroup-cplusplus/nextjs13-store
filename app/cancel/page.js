@@ -4,7 +4,7 @@ export default function CancelPage() {
     return (
         <div>
             Gutted
-            <Link>Back home</Link>
+            <Link href={"/"}>Back home</Link>
         </div>
     )
 }
