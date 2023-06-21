@@ -1,7 +1,6 @@
 "use client"
 import useCart from "../(store)/store"
 import {  useRouter } from "next/navigation"
-import Image from "next/image"
 
 export default function ProductPage(props) {
     const { searchParams } = props
